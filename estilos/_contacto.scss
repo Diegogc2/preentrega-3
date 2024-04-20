@@ -1,0 +1,43 @@
+/*CONTACTO*/
+
+#contactoedit {
+    font-size: 30px;
+}
+
+.prueba1 {
+    padding: 2%;
+    color: $color-blanco;
+    text-align: center;
+    background-position: center;
+}
+
+.contacto1 {
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.cajatexto {
+    width: 300px;
+    margin-top: 10px;
+    background-color: $color-grisverdoso;
+    border-radius: 20px;
+}
+
+.textomensaje {
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: $color-grisverdoso;
+    border-radius: 20px;
+}
+
+#mapa {
+    background-position: center;
+    margin-top: 30px;
+}
+
+#imagencontacto {
+    background-image: url(../Media/imagen\ contacto2.jpg);
+    background-position: center;
+    width: 100%;
+}

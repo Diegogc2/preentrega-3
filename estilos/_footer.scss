@@ -1,0 +1,20 @@
+footer {
+    background-color: $color-blanco;
+    width: 100%;
+    color: $color-negro;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.redes a {
+    text-align: center;
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+footer p {
+    margin-bottom: 50px;
+}

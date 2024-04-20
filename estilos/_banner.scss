@@ -1,0 +1,38 @@
+body {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.section1,
+.section2 {
+    transform-style: preserve-3d;
+}
+
+.section1 {
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: url("../media/base.png") top center;
+        background-size: cover;
+        transform: translateZ(-1px) scale(2.2);
+        filter: blur(2px);
+    }
+
+    &::after {
+        content: ".";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: url("../media/outer-layer-blur.png") top center;
+        background-size: cover;
+    }
+
+    .text {
+        top: 10%;
+        transform: translateZ(-0.5px) scale(1.5, 1.6) translate(-33%, 10%);
+    }
+}

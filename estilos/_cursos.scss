@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: $color-blanco;
+    width: 100%;
+    color: $color-negro;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.redes a {
+    text-align: center;
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+footer p {
+    margin-bottom: 50px;
+}
+
+.arriba {
+    background-color: $color-azul;
+    color: $color-blanco;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
