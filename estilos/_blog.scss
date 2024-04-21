@@ -15,58 +15,41 @@
 }
 
 .item1 {
-    background-image: url(../Media/1980.jpg);
+    background-image: url(../media/1980.jpg);
     grid-area: img1;
 }
 
 .item2 {
-    background-image: url(../Media/1981.jpg);
+    background-image: url(../media/1981.jpg);
     grid-area: img2;
 }
 
 .item3 {
-    background-image: url(../Media/1983.jpg);
+    background-image: url(../media/1983.jpg);
     grid-area: img3;
 }
 
 .item4 {
-    background-image: url(../Media/dive-225580_1920.jpg);
+    background-image: url(../media/dive-225580_1920.jpg);
     grid-area: img4;
 }
 
 .item5 {
-    background-image: url(../Media/fondo\ buceo.jpg);
+    background-image: url(../media/fondo\ buceo.jpg);
     grid-area: img5;
 }
 
 .item6 {
-    background-image: url(../Media/imagen\ inicio\ 2.jpg);
+    background-image: url(../media/imagen\ inicio\ 2.jpg);
     grid-area: img6;
 }
 
 .item7 {
-    background-image: url(../Media/IMAGEN\ INICIO.jpg);
+    background-image: url(../media/IMAGEN\ INICIO.jpg);
     grid-area: img7;
 }
 
 .item8 {
-    background-image: url(../Media/diver-1867538_1920.jpg);
+    background-image: url(../media/diver-1867538_1920.jpg);
     grid-area: img8;
-}
-
-#fotoblog {
-    align-items: center;
-    float: inline-end;
-    margin-right: 300px;
-}
-
-.parrafoblog {
-    width: 560px;
-    text-align: left;
-    margin-left: 200px;
-}
-
-.titulopeli {
-    margin-left: 200px;
-    margin-top: 50px;
 }

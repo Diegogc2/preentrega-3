@@ -1,17 +1,17 @@
 section {
     max-width: 800px;
     margin: 0 auto;
-    font-family: system-ui;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $fuente-titulo;
+    color: $color-azul;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $fuente-parrafo;
     opacity: .7;
     font-size: 18px;
     font-weight: 400;

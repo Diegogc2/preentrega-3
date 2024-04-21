@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   perspective: 1px;
   transform-style: preserve-3d;
@@ -100,38 +101,138 @@ footer p {
   border-radius: 50%;
 }
 
-/*CONTACTO*/
-#contactoedit {
-  font-size: 30px;
-}
-
-.prueba1 {
-  padding: 2%;
-  color: rgb(255, 255, 255);
+.contactocentro {
   text-align: center;
-  background-position: center;
 }
 
-.contacto1 {
-  font-size: x-large;
-  margin-top: 10px;
-}
-
-.cajatexto {
-  width: 300px;
-  margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0.5254901961);
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
   border-radius: 20px;
+  position: relative;
 }
 
-.textomensaje {
-  width: 600px;
-  height: 300px;
-  margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0.5254901961);
-  border-radius: 20px;
+.title {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.title::before, .title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+.title::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
 }
 
+.message {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+  text-align: center;
+}
+.signin a {
+  color: royalblue;
+}
+.signin a:hover {
+  -webkit-text-decoration: underline royalblue;
+          text-decoration: underline royalblue;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+.form label .input:-moz-placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+.form label .input:focus + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: green;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
 #mapa {
   background-position: center;
   margin-top: 30px;
@@ -160,60 +261,43 @@ footer p {
 }
 
 .item1 {
-  background-image: url(../Media/1980.jpg);
+  background-image: url(../media/1980.jpg);
   grid-area: img1;
 }
 
 .item2 {
-  background-image: url(../Media/1981.jpg);
+  background-image: url(../media/1981.jpg);
   grid-area: img2;
 }
 
 .item3 {
-  background-image: url(../Media/1983.jpg);
+  background-image: url(../media/1983.jpg);
   grid-area: img3;
 }
 
 .item4 {
-  background-image: url(../Media/dive-225580_1920.jpg);
+  background-image: url(../media/dive-225580_1920.jpg);
   grid-area: img4;
 }
 
 .item5 {
-  background-image: url(../Media/fondo\ buceo.jpg);
+  background-image: url(../media/fondo\ buceo.jpg);
   grid-area: img5;
 }
 
 .item6 {
-  background-image: url(../Media/imagen\ inicio\ 2.jpg);
+  background-image: url(../media/imagen\ inicio\ 2.jpg);
   grid-area: img6;
 }
 
 .item7 {
-  background-image: url(../Media/IMAGEN\ INICIO.jpg);
+  background-image: url(../media/IMAGEN\ INICIO.jpg);
   grid-area: img7;
 }
 
 .item8 {
-  background-image: url(../Media/diver-1867538_1920.jpg);
+  background-image: url(../media/diver-1867538_1920.jpg);
   grid-area: img8;
-}
-
-#fotoblog {
-  align-items: center;
-  float: inline-end;
-  margin-right: 300px;
-}
-
-.parrafoblog {
-  width: 560px;
-  text-align: left;
-  margin-left: 200px;
-}
-
-.titulopeli {
-  margin-left: 200px;
-  margin-top: 50px;
 }
 
 * {
@@ -243,7 +327,7 @@ html {
 
 h5 {
   color: #0099ff;
-  font-family: helvetica;
+  font-family: font-family "Roboto", sans-serif;
   text-align: center;
   font-weight: 800;
 }
@@ -251,17 +335,17 @@ h5 {
 section {
   max-width: 800px;
   margin: 0 auto;
-  font-family: system-ui;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: font-family "Roboto", sans-serif;
+  color: #2473ce;
 }
 
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: helvetica;
   opacity: 0.7;
   font-size: 18px;
   font-weight: 400;

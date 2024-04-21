@@ -1,84 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--BS 5.1 inicia-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--BS 5.1 fin-->
-    <link rel="stylesheet" href="../estilos/estilo.css">
-    <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--BS 5.1 inicia-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--BS 5.1 fin-->
+  <link rel="stylesheet" href="../estilos/estilo.css">
+  <title>Blog</title>
 </head>
 <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Godive</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="diflex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./buceo.html">Buceo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./cursos.html">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</header>
-<body>
-      <div id="grilla">
-        <div class="item item1"></div>
-        <div class="item item2"></div>
-        <div class="item item3"></div>
-        <div class="item item4"></div>
-        <div class="item item5"></div>
-        <div class="item item6"></div>
-        <div class="item item7"></div>
-        <div class="item item8"></div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Godive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="diflex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./buceo.html">Buceo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
       </div>
-    
-    <!--<main> 
-        <section>
-            <iframe id="fotoblog" width="560" height="315" src="https://www.youtube.com/embed/EyGhr8ewWHI?si=mPkxHYmNR3y1b7kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h1 class="titulopeli">Documental recomedado</h1>
-            <p class="parrafoblog">Esta es la historia de una campeona de buceo en apnea y un experto en seguridad que parecen estar destinados a encontrarse el uno al otro en el punto máximo de sus carreras. Una mirada a las emocionantes recompensas —y los ineludibles riesgos— que conlleva perseguir un sueño en las profundidades del océano.
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</header>
 
-                Dirigida por Laura McGann, «La inspiración más profunda» es una producción de A24. Estreno el 19 de julio, solo en Netflix.
-            </p>
-        </section>
-</main>-->
+<body>
+  <div id="grilla">
+    <div class="item item1"></div>
+    <div class="item item2"></div>
+    <div class="item item3"></div>
+    <div class="item item4"></div>
+    <div class="item item5"></div>
+    <div class="item item6"></div>
+    <div class="item item7"></div>
+    <div class="item item8"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <h1 class="titulopeli">Documental recomedado</h1>
+      <p class="parrafoblog">Esta es la historia de una campeona de buceo en apnea y un experto en seguridad que parecen
+        estar destinados a encontrarse el uno al otro en el punto máximo de sus carreras. Una mirada a las emocionantes
+        recompensas —y los ineludibles riesgos— que conlleva perseguir un sueño en las profundidades del océano. Dirigida
+        por Laura McGann, «La inspiración más profunda» es una producción de A24. Estreno el 19 de julio, solo en Netflix.
+      </p>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <iframe id="fotoblog" width="560" height="315" src="https://www.youtube.com/embed/EyGhr8ewWHI?si=mPkxHYmNR3y1b7kQ"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
   <footer>
-        <p>© 2024 Godive. All Rights Reserved.</p>
-        <div class="redes">
-            <a href="">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-        </div>
-        </footer>
-    <a href="" class="arriba">
-      <i class="fa-solid fa-house-flood-water"></i>
-    </a>
+    <p>© 2024 Godive. All Rights Reserved.</p>
+    <div class="redes">
+      <a href="">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-square-instagram"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+  </footer>
+  <a href="" class="arriba">
+    <i class="fa-solid fa-house-flood-water"></i>
+  </a>
 </body>
+
 </html>
