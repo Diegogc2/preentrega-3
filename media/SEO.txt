@@ -1,0 +1,6 @@
+SEO
+
+1) Se agrega los meta keywords con palabras relacionad a Buceo y cursos.
+2) Se realiza la compresion de las imagenes utilizadas en toda la pagina en la pagina de tinypng.
+3) Se acomoda codigo de todos los archivos.
+4) Se elimina todo tipo de codigo erroneo y agregado para detallar.
