@@ -1,5 +1,5 @@
 footer {
-    background-color: $color-blanco;
+    background-color: #304a72;
     width: 100%;
     color: $color-negro;
     text-align: center;
@@ -10,11 +10,12 @@ footer {
 .redes a {
     text-align: center;
     text-decoration: none;
-    color: $color-negro;
+    color: $color-blanco;
     font-size: 50px;
     letter-spacing: 10px;
 }
 
 footer p {
     margin-bottom: 50px;
+    color: $color-blanco
 }
